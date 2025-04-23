@@ -28,23 +28,17 @@ const StyledSkill = styled.div`
 `;
 
 const SkillsTitle = styled.h3`
-  font-family: "Josefin Sans", sans-serif;
   margin: 70px 0 15px;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   //color: #fff;
 `;
 
 const SkillText = styled.p`
   //text-align: center;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.4;
 `;
 
-const IconWrapper = styled.div`
+export const IconWrapper = styled.div`
   position: relative;
 
   &::before {

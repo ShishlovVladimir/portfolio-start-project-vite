@@ -9,13 +9,13 @@ export const Main = () => {
     <StyledMain>
       <Container>
         <FlexWrapper align={`center`} justify="space-between">
-          <div>
+          <TextBlock>
             <SmallText>Hi There</SmallText>
             <Name>
               I am <span>Svetlana Dyablo</span>
             </Name>
             <MainTitle>A Web Developer.</MainTitle>
-          </div>
+          </TextBlock>
           <PhotoWrapper>
             <Photo src={photo} alt="" />
           </PhotoWrapper>
@@ -32,6 +32,9 @@ const StyledMain = styled.section`
   //background-color: #1f1f20;
 `;
 
+const TextBlock = styled.div`
+  text-align: left;
+`;
 const Photo = styled.img`
   width: 350px;
   height: 430px;

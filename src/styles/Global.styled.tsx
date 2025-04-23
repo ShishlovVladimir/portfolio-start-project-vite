@@ -26,17 +26,9 @@ export const GlobalStyle = createGlobalStyle`
     
     button {
         background-color: unset;
+        cursor: pointer;
+        color: ${theme.colors.font};
         
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-weight: inherit;
-        font-size: inherit;
     }
     
     img {
@@ -55,6 +47,7 @@ export const GlobalStyle = createGlobalStyle`
         background-color: ${theme.colors.secondaryBg};
     }
     
+   
     body {
         margin: 0;
         font-family: "Poppins", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -64,6 +57,23 @@ export const GlobalStyle = createGlobalStyle`
         -moz-osx-font-smoothing: grayscale;
         color: ${theme.colors.font};
         line-height: 1.2;
+    }
+
+    a{
+        color: ${theme.colors.font};
+    }
+
+    h3 {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 0.06em;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
     }
 
 `;
